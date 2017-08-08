@@ -1,9 +1,0 @@
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\bin\Debug\netcoreapp1.1\Dartagnan.deps.json
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\bin\Debug\netcoreapp1.1\Dartagnan.runtimeconfig.json
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\bin\Debug\netcoreapp1.1\Dartagnan.runtimeconfig.dev.json
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\bin\Debug\netcoreapp1.1\Dartagnan.dll
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\bin\Debug\netcoreapp1.1\Dartagnan.pdb
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\obj\Debug\netcoreapp1.1\Dartagnan.csprojResolveAssemblyReference.cache
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\obj\Debug\netcoreapp1.1\Dartagnan.AssemblyInfo.cs
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\obj\Debug\netcoreapp1.1\Dartagnan.dll
-C:\Users\aprac\Source\Repos\dartagnan\Dartagnan\obj\Debug\netcoreapp1.1\Dartagnan.pdb
