@@ -3,17 +3,14 @@
         text: '/lib/text/text',
         vue: '/lib/vue/dist/vue',
         vuex: '/lib/vuex/dist/vuex',
-        valuedDartModel: '/js/valuedDartModel',
+        valuedDartModel: '/js/models/valuedDartModel',
         store: '/js/store/store'
     }
 })
 
-requirejs(['vue', 'store', '/js/target.js'], function (Vue, store) {
+requirejs(['vue', 'store', '/js/components/target.js', '/js/components/dartsOnBoard.js'], function (Vue, store) {
     var app = new Vue({
         el: '#app',
-        data: {
-            message: 'Hello Vue!'
-        },
         store: store
     });
 });

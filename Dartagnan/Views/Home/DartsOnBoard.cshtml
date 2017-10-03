@@ -1,0 +1,10 @@
+﻿@{
+    Layout = null;
+}
+<div>
+    <ul>
+        <li v-for="valuedDart in darts">
+            <a v-on:click="removeDartFromBoard(valuedDart)">{{ getDisplayText(valuedDart) }}</a>
+        </li>
+    </ul>
+</div>

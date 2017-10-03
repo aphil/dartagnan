@@ -5,6 +5,7 @@
     // each Vuex instance is just a single state tree.
     var state = {
         dartsOnBoard: []
+
     };
 
     // mutations are operations that actually mutates the state.
@@ -17,14 +18,20 @@
             state.dartsOnBoard.push(dart);
         },
         removeDartFromBoard(state, dart) {
-            // todo
+            var index = state.dartsOnBoard.indexOf(dart);
+            if (index >= 0) {
+                state.dartsOnBoard.splice(index, 1);
+            } else {
+                throw "Can't find dart" + dart.getKey();
+            }
         }
     };
 
     // actions are functions that cause side effects and can involve
     // asynchronous operations.
     var actions = {
-        addDartToBoard: function (store, dart) { store.commit('addDartToBoard', dart); }
+        addDartToBoard: function (store, dart) { store.commit('addDartToBoard', dart); },
+        removeDartFromBoard: function (store, dart) { store.commit('removeDartFromBoard', dart); }
     };
 
     // getters are functions

@@ -18,6 +18,15 @@ namespace Dartagnan.Controllers
             return View();
         }
 
+        public IActionResult DartsOnBoard()
+        {
+            return View();
+        }
+        public IActionResult ScoreBoard()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();

@@ -10,8 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\js\components\dartsOnBoard.js" />
+    <Content Include="wwwroot\js\components\scoreboard.js" />
+    <Content Include="wwwroot\js\components\target.js" />
+    <Content Include="wwwroot\js\models\player.js" />
+    <Content Include="wwwroot\js\models\valuedDartModel.js" />
     <Content Include="wwwroot\js\store\store.js" />
-    <Content Include="wwwroot\js\valuedDartModel.js" />
     <Content Include="wwwroot\lib\.gitignore" />
   </ItemGroup>
   <ItemGroup>
@@ -27,7 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\js\main.js" />
-    <None Include="wwwroot\js\target.js" />
   </ItemGroup>
 
 </Project>
